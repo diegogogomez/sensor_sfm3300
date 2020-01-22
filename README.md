@@ -1,12 +1,12 @@
 Código funcional desarrollado para ser ejecutado usando arduino y realizando la conexión I2C al sensor de flujo SFM3300
 
 Distribución de pines del sensor
-NC*	VCC	SCL	GND	SDA	NC*
+NC*-VCC-SCL-GND-SDA-NC*
 
 *NC = no conectar
 
 Pines usados en el arduino
-vcc	GND	A4	A5
+VCC-GND-A4-A5
 	
 Sensor SFM3300	-> 	pin arduino
 VCC	->	VCC
@@ -23,3 +23,5 @@ Esta es una primera versión funcional donde se evidencia variacion de las varia
 Es necesario leer el datasheet y programar los bites funcionales para realizar la conversion de la información.
 
 !!!NO SOLDAR LOS PINES DEL SENSOR, PUEDE GENERAR DAÑOS SOBRE EL MISMO!!!
+
+autor Diego Gomez
